@@ -1,0 +1,45 @@
+# Ignore all iOS and Android build files and directories
+ios/
+android/
+
+# Ignore Gradle and JVM files
+*.gradle
+local.properties
+*.class
+
+# Ignore log files
+*.log
+
+# Ignore configuration files
+*.iml
+.idea/
+
+# Ignore generated files
+lib/
+bin/
+build/
+
+# Ignore cache files
+.DS_Store
+.expo-shared/
+.jest/
+node_modules/
+
+# Ignore un-tracked dependencies
+.yarn-integrity
+.pnp.js
+
+# Ignore macOS system files
+.AppleDouble
+.LSOverride
+
+# Ignore OSX system files
+.Spotlight-V100
+.Trashes
+
+# Ignore Linux system files
+Thumbs.db
+.Trash-*
+
+# Ignore IntelliJ IDEA
+.idea/
