@@ -52,11 +52,11 @@ jobs:
       - name: Try to fail
         run: exit 1
         
-#       - name: Prevent merge
-#         if: failure()
-#         run: |
-#           # Replace with your command to prevent the merge
-#           git merge --abort
+      - name: Prevent merge
+        if: failure()
+        run: |
+          # Replace with your command to prevent the merge
+          git merge --abort
           
           
           
